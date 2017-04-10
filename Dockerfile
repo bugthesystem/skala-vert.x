@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM fabric8/java-alpine-openjdk8-jdk
 
 ADD ./target/scala-2.12/skala-vert-x-assembly*.jar /app/server.jar
 
